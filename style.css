@@ -1,0 +1,332 @@
+body{
+    
+margin: 0px;
+padding: 0pxk;
+   
+    
+}
+div.main{
+    
+   
+    height: 700px;
+     
+    
+}
+div.navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    
+    
+}
+div.joinnavbar{
+    
+    background-color: black;
+}
+div.navbar a{
+    color: white;
+    margin: 20px;
+    
+    
+}
+div.navbar a.join{
+    
+    
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+div.details{
+    
+    
+text-align: center;
+padding-top: 150px;
+    color: white;
+}
+div.details button{
+     padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+*{
+    font-family: arial;
+}
+div.upcoming h1{
+    
+    text-align: center;
+    color: white;
+}
+div.game{
+    
+    text-align: center;
+}
+div.games{
+    
+   display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+div.games h5{
+    
+    color: white;
+}
+div.games p{
+    color: white;
+}
+div.game div.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url(images/1.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+div.game2 div.img{
+    
+   background-image: url(images/2.jpeg)
+    
+    
+}
+div.game3 div.img{
+    
+    background-image: url(images/3.jpeg)
+    
+}
+div.game4 div.img{
+    
+    background-image: url(images/4.jpeg)
+}
+div.maingame{
+    
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  border-radius: 50px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 15px;
+}
+div.maingame button{
+    
+     padding: 15px;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+div.maingame img{
+    margin-right: -150px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+div.all{
+     background-image: url(images/galaxy-planets-digital-art.jpg);
+     background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    
+}
+
+div.posts{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    
+}
+div.post{
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.post1 div.img, div.post2 div.img, div.post3 div.img{
+    
+    background-image: url(images/post1.jpg);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.post h3, div.post p,div.post h5{
+    
+    padding right: 10px;
+    padding-left: 10px;
+}
+div.post p{
+    
+    font-size: 15px;
+    text-align: left;
+}
+
+div.post p,div.post h5{
+    
+    display: inline-block;
+}
+div.postcontent h1,div.postcontent p{
+    
+    text-align: center;
+}
+
+div.post2 div.img{
+     background-image: url(images/post2.jpg);
+    
+}
+div.post3 div.img{
+    
+    background-image: url(images/post3.jpg);
+}
+div.testis{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+    
+    
+}
+div.testi{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+div.testi1 div.img{
+    height: 250px;
+    background-image: url(images/boy.png);
+    background-size: cover;
+    background-position: center;
+}
+div.testi2 div.img{
+      height: 250px;
+    background-image: url(images/girl.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+div.test h1{
+    
+    text-align: center;
+}
+div.pricing h2{
+    
+    
+    text-align: center;
+}
+div.prices{
+    
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+div.price{
+    width: 30%;
+    background-color:midnightblue;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+div.price button{
+    
+     padding: 15px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+
+}
+div.planprice{
+    background-color: saddlebrown;
+    padding: 15px;
+}
+div.planprice h3{
+    
+    margin: 0px;
+}
+div.joinform{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    border:  1px solid black;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+}
+div.joinform div.image{
+    
+    width: 35%;
+    
+} 
+div.joinform div.form{
+    
+    width: 65%;
+}
+div.joinform div.image{
+    background-image: url(images/forest.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+form input, form button{
+    
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 1px solid indigo;
+    display: block;
+    margin: 10px;
+}
+form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+form button{
+    
+    background-color: black;
+    color: white;
+}
+div.footer{
+    
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+        
+}
